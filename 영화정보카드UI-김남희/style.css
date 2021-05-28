@@ -1,0 +1,87 @@
+/* style.css */
+* {
+  margin: 0;
+}
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #d1d1d1;
+}
+.card {
+  width: 400px;
+  height: 610px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.219);
+  display: inline-block;
+  margin-right: 40px;
+  position: relative;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.card img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.card > .info {
+  width: 380px;
+  height: 235px;
+  background: #fff;
+  padding-top: 10px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.card h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 35px;
+  color: #8F6EFF;
+  margin-left: 35px;
+}
+.card h5 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #BFACFF;
+  margin-left: 35px;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 26px;
+  margin-left: 35px;
+}
+.link_btn {
+  display: block;
+  padding: 6px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  color: #fff;
+  background: #BFACFF;
+  height: 30px;
+  width: 300px;
+  margin-left: 33px;
+}
+.link_btn:hover {
+  background: #9382c9c2;
+}
+
+section {
+  /* outline: 2px solid red; */
+  width: 1288px;
+  position: absolute;
+  /* 수평 중앙 정렬 = 50% - 크기 1/2 */
+  left: 50%;
+  margin-left: calc(-1288px / 2);
+  /* 수직 중앙 정렬 */
+  top: 50%; 
+  margin-top: calc(-610px / 2);
+}
