@@ -1,5 +1,5 @@
-# movie-card-ui
+#팀과제 홈페이지 리뉴얼
 
-여기에 작품에 대한 설명을 추가
+주제 선정 : DC Comics (https://www.dccomics.com/)
 
-홈페이지 주소 :  https://namii09.github.io/movie-card-ui/
+홈페이지 주소 :  
